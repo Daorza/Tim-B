@@ -27,7 +27,7 @@
                     </tr>
                 </thead>
                 <tbody class="text-center align-items-center">
-                <?php $i = 0 ?>
+                <?php $i = 1 ?>
                 @foreach($pasiens as $pasien)
                     <tr>
                         <th scope="row">{{ $i++ }}</th>

@@ -55,3 +55,6 @@ Route::resource('pasien', 'PasienController');
 
 // Rute untuk Pemeriksaan
 Route::resource('pemeriksaan', 'PemeriksaanController');
+
+// Rute untuk Obat
+Route::resource('obat', 'ObatController');

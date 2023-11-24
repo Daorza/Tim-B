@@ -4,7 +4,7 @@
 <title>Data Dokter | Edit</title>
 <div class="justify-content-center flex align-items-center w-100" style="margin-left: 250px;">
 <div class="bg-secondary h-100 p-4 border-start border-danger">
-        <h6 class="mb-5 ">Form Tambah Dokter</h6>
+        <h6 class="mb-5 ">Form Edit Dokter</h6>
         <form action="{{ route('dokter.update', $dokter->id_dokter) }}" method="POST">
         @csrf
         @method('PATCH')
